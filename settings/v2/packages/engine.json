@@ -9,7 +9,7 @@
         "_value": true
       },
       "gfx-webgl2": {
-        "_value": true
+        "_value": false
       },
       "gfx-webgpu": {
         "_value": false
@@ -92,7 +92,7 @@
         "_value": false
       },
       "webview": {
-        "_value": true
+        "_value": false
       },
       "tween": {
         "_value": true
@@ -122,7 +122,7 @@
         "_value": true
       },
       "procedural-animation": {
-        "_value": true
+        "_value": false
       },
       "custom-pipeline-post-process": {
         "_value": false
@@ -150,18 +150,15 @@
       "base",
       "geometry-renderer",
       "gfx-webgl",
-      "gfx-webgl2",
       "legacy-pipeline",
       "marionette",
       "meshopt",
       "particle",
       "physics-cannon",
       "primitive",
-      "procedural-animation",
       "skeletal-animation",
       "tween",
-      "ui",
-      "webview"
+      "ui"
     ],
     "noDeprecatedFeatures": {
       "value": false,
