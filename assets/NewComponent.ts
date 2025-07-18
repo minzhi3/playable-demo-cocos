@@ -7,6 +7,6 @@ export class NewComponent extends Component {
 
   update(deltaTime: number) {}
   install() {
-    mraid.open();
+    mraid.open("https://apps.apple.com/us/app/ad-testing/id1463016906");
   }
 }
