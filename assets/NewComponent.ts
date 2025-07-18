@@ -1,14 +1,12 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node } from "cc";
 const { ccclass, property } = _decorator;
-
-@ccclass('NewComponent')
+declare const mraid: any;
+@ccclass("NewComponent")
 export class NewComponent extends Component {
-    start() {
+  start() {}
 
-    }
-
-    update(deltaTime: number) {
-        
-    }
+  update(deltaTime: number) {}
+  install() {
+    mraid.open();
+  }
 }
-
